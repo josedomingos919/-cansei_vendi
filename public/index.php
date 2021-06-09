@@ -10,11 +10,12 @@
 </head>
 <body>
     <main>
-
-    <section>
-    <header>NOVIDADES</header>
-    </section>
-    
+        <section>
+            <header>NOVIDADES</header>
+            <article>
+            
+            </article>
+        </section>
     </main>
 </body>
 </html>
