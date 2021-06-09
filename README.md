@@ -1,20 +1,24 @@
 # -cansei_vendi
 Teste de Recrutamento @cansei_vendi
 
-#Esclarecimento
+# Esclarecimento
+
 Esse teste tem como objetivo, avaliar suas habilidades e conhecimentos em desenvolvimento web.
 
-#Objetivos
+# Objetivos
+
 Desenvolver e solucionar o desafio proposto, de forma simples e eficiente!
 
-#Desafio
+# Desafio
+
 Desenvolver uma vitrine de produtos, utilizando as informações de um arquivo JSON fornecido através de um endpoint.
 
-#Endpoint
+# Endpoint
+
 Link do endpoint JSON
 
 https://dptafza4tn3d0.cloudfront.net/sqatiql8m35w9nm15hwdw0a.json
-#Exemplo da Vitrine
+# Exemplo da Vitrine
 link: https://dptafza4tn3d0.cloudfront.net/Teste+de+Recrutamento+%40cansei_vendi.html
 
 No exemplo acima, o primeiro produto está no estado de hover(quando o usuário passa o mouse por cima).
