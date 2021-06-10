@@ -8,10 +8,21 @@
   margin: 0px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  scroll-behavior: smooth;
+}
+
+#container_prod_new {
+  display: flex;
+}
+#container_prod {
+  padding: 10px;
+  display: flex;
+  max-width: 1000px;
+  overflow: hidden;
 }
 
 main {
-  padding-top: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -20,17 +31,17 @@ main {
 }
 
 main header {
+  padding-top: 20px;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
 }
 
 .item {
-  width: 192px;
+  width: 200px !important;
   padding: 20px;
   padding-top: 55px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -40,15 +51,24 @@ main header {
   width: 100%;
   height: 100%;
 }
+.item {
+  margin-right: 10px;
+}
+.item:last-child {
+  margin-right: 0px;
+}
 
 .container-img-item {
-  width: 151px;
-  height: 190px;
+  width: 149px;
+  height: 188px;
   margin-bottom: 36px;
+  overflow: hidden;
 }
 
 .text-info {
   text-align: center;
+  color: #717171;
+  font-size: 14px;
   margin-bottom: 16px;
 }
 
@@ -57,6 +77,7 @@ main header {
   height: 35px;
   border-radius: 25px;
   color: #cb872e;
+  font-weight: bold;
   width: 143px;
 }
 
@@ -65,7 +86,7 @@ main header {
 }
 
 .h-preco {
-  font-size: 16px;
+  font-size: 13px;
   margin-bottom: 12px;
 }
 
@@ -82,7 +103,7 @@ h3 {
   text-transform: uppercase;
   width: 126px;
   height: 34px;
-  background-color: black;
+  background-color: #161616;
   color: white;
   cursor: pointer;
 }
@@ -95,5 +116,58 @@ h3 {
   display: flex;
   background-color: #ffffff;
   cursor: pointer;
+  font-size: 12px;
   text-transform: uppercase;
+}
+
+.container-btn-info span {
+  opacity: 0.4;
+}
+
+.context {
+  display: flex;
+  align-items: center;
+}
+
+.btnT img {
+  width: 100%;
+  height: 100%;
+}
+.btnT {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btnT:hover {
+  transition: 0.3s;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.img-card {
+  width: 12px;
+}
+
+.img-card.t {
+  margin-right: 5px;
+}
+
+.item:hover * {
+  cursor: pointer;
+}
+.item:hover {
+  transition: 0.4s;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.item:hover .closer {
+  cursor: pointer;
+  transition: 0.5s;
+  visibility: visible;
+}
+
+.closer {
+  visibility: hidden;
 }
