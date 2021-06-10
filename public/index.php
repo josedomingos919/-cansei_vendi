@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Recrutamento @cansei_vendi</title>
-    <link rel="stylesheet" href="./style.css"> 
-    <script src="./util.js"></script>
-    <script src="./script.js"></script> 
+    <link rel="stylesheet" href="./css/style.css"> 
+    <script src="./js/util.js"></script>
+    <script src="./js/script.js"></script> 
 </head>
 <body>
  <main>
